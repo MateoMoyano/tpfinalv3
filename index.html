@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Notas</title>
+    <script src="java.js"></script>
+</head>
+<body background="desenfoque-lujo-abstracto-degradado-gris-negro-utilizado-como-pared-estudio-fondo-mostrar-sus-productos_1258-100448.jpg">
+    <div class="parent">
+        <div class="div1"> 
+            <h1 class="supertitulo">Escuela Experimental ProA</h1>
+        </div>
+        <div class="div2" > 
+            <img src="icono.png" alt="" class="icono" onclick="icono()">
+        </div>
+        <div class="div3"> </div>
+        <div class="div4" id="div4" style="display: none;">
+             
+            <h1 class="ini">Iniciar sesion</h1>
+            <div class="div6" id="div6"> 
+                <form action="">
+                    <br><br>
+                    <label for="">Nombre</label>
+                    <input type="text"id="nombreC">
+                    <br><br>
+                    <label for="">Apellido</label>
+                    <input type="text" id="apellidoC">
+                    <br><br>
+                    <label for="">Contraseña</label>
+                    <input type="text" id="contraseña">
+                    <br><br>
+                    <input type="button" value="terminar" onclick="secion()">
+                </form>
+            </div>
+        </div>
+        <div class="div5" id="div5" style="display: none;">
+            <div class="div7"> 
+                <h1 class="titulo">INGRESAR DATOS ProA</h1>
+            </div>
+            <div class="div8"> 
+                <br><br>
+                <form action="">
+                    <label for="">Nombre</label>
+                    <input type="text"id="nombre">
+                    <label for="">Apellido</label>
+                    <input type="text" id="apellido">
+                    <label for="">curso</label>
+                    <input type="text" id="curso">
+                    <br><br>
+                    <label for="">materia</label>
+                    <input type="text" id="materia">
+                    <label for="">Aprobado/Pendiente</label>
+                    <input type="text" id="pendiente">
+                    <input type="button" value="Enviar" onclick="datos()">
+                </form>
+                <br><br>
+            </div>
+            <div class="div9"> 
+                <h1 class="twotitulo">Tabla de notas de Alumnos ProA</h1>
+            </div>
+            <div class="div10"> 
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Curso</th>
+                        <th>Materia</th>
+                        <th>Aprobado/Pendiente</th>
+                        <th>Modificar</th>
+                    </tr>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+
+
+</html>
